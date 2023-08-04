@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "invasion-plus",
+  "version": "${version}",
+  "name": "Invasion Plus",
+  "description": "",
+  "authors": [
+    "Pr3roxDLC"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/invasion-plus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.pr3.invasionplus.client.InvasionPlusClient"
+    ],
+    "main": [
+      "me.pr3.invasionplus.InvasionPlus"
+    ]
+  },
+  "mixins": [
+    "invasion-plus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
